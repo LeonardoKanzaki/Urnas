@@ -1,0 +1,41 @@
+#include<stdio.h>
+#include<stdlib.h>
+int main()
+{
+    int opc, JULIANA_FREITAS1060, BRYAN_OLIVEIRA1070, VINICIUS_ALMEIDA1080, ANA_CAROLINA_PEIXOTO1090;
+    printf("\n digite 1 para votar e 0 para sair \n");
+    scanf("%d", & opc);
+    if(opc==1)
+    {
+        printf("\n informe o numero do seu candidato\n candidato: ");
+        scanf("%d", &opc);
+        if(opc==1060)
+        {
+            printf("\n deseja confirmar o voto em Juliana Freitas cujo o numero eh 1060?\n 1p/sim 2p/nao \n");
+            scanf("%d", &opc);
+            if(opc==1)
+            {
+            printf("\n vc votou em Juliana Freitas");
+            JULIANA_FREITAS1060=1;
+            }
+            while()
+            {
+                
+            }
+                if(opc==1070)
+                {
+                     printf("\n deseja confirmar o voto em Bryan Oliveira cujo o numero eh 1070?\n 1p/sim 2p/nao \n");
+            scanf("%d", &opc);
+            if(opc==1)
+            {
+            printf("\n vc votou em Bryan Oliveira");
+            BRYAN_OLIVEIRA1070=1;
+            }
+            else
+            {
+                return(0);
+            }
+                }
+        }
+    }
+}
