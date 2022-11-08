@@ -1,2 +1,13 @@
-.
-a
+#include<stdio.h>
+#include<stdlib.h>
+int main()
+{
+    int JULIANA_FREITAS_1060, BRYAN_OLIVEIRA_1070, VINICIUS_ALMEIDA_1080, ANA_CAROLINA_PEIXOTO_1090;
+    int opc, i, URNAS[20];
+//PARTE DE DETERMINAÇÃO DE URNAS//
+
+    for(i=0, i<20, i++)
+    {
+        printf("\n INFORME A URNA DESEJADA PARA VOTAR [1 a 20]: ");
+        scanf("%d", &opc);
+        URNAS[i]=opc;
