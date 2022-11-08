@@ -1,1 +1,79 @@
-.
+#include<stdio.h>
+#include<windows.h>
+
+
+    int main()
+{
+    int juliana, bryan, vinicius, ana;
+    int voto,login,confirmacao;
+
+
+
+    printf("\n");
+    printf("Bem Vindo A Cabine de Votacao\n\n");
+    printf("Deseja Fazer seu voto?\n\nPressione 1 para Sim e 2 para Nao:\n");
+    scanf("%d,&login");
+
+    system("cls");
+
+    while(login=1)
+    {
+        printf("\n\nDigite O Numero de seu candidato por favor:\n");
+        scanf("%d",&voto);
+
+
+    if(voto=1060)
+    {
+
+        printf("Seu Canditato e:\n");
+        printf("JULIANA FREITAS\n");
+        printf("NUMERO 1060\n");
+        printf("Confirma? 1 para sim e 2 para nao:\n");
+        scanf("%d",&confirmacao);
+        system("cls");
+    }
+    else
+    {
+
+    if(voto=1070)
+    {
+        
+        printf("Seu Canditato e:\n");
+        printf("BRYAN OLIVEIRA\n");
+        printf("NUMERO 1070\n");
+        printf("Confirma? 1 para sim e 2 para nao:\n");
+        confirmacao=0;
+        scanf("%d",&confirmacao);
+        system("cls");
+    }
+    }
+
+
+    if(voto=1080)
+    {
+        printf("Seu Canditato e:\n");
+        printf("VINICIUS ALMEIDA\n");
+        printf("NUMERO 1080\n");
+        printf("Confirma? 1 para sim e 2 para nao:\n");
+        scanf("%d",&confirmacao);
+        system("cls");
+    }
+
+     else
+
+     {
+
+
+    if(voto=1090)
+    {
+        
+        printf("Seu Canditato e:\n");
+        printf("ANA CAROLINA PEIXOTO\n");
+        printf("NUMERO 1090\n");
+        printf("Confirma? 1 para sim e 2 para nao:\n");
+        scanf("%d",&confirmacao);
+        system("cls");
+    }
+    }
+    }
+}
